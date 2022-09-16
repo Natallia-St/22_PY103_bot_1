@@ -1,0 +1,1274 @@
+executor.py [LINE:362] #INFO     [2022-09-15 21:43:29,520] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 21:43:29,521] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 21:51:07,006] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 21:51:07,007] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 21:51:12,404] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 21:51:12,405] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 21:54:09,112] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 21:54:09,114] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 21:54:15,140] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 21:54:15,141] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 21:57:21,085] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 21:57:21,087] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 21:57:24,188] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 21:57:24,190] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 21:59:41,455] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 21:59:41,456] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 21:59:45,934] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 21:59:45,935] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:00:47,752] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:00:47,754] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:00:58,306] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:00:58,307] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:02:14,485] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:02:14,486] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:02:43,067] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:02:43,069] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:04:34,773] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:04:34,774] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:04:39,751] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:04:39,752] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:10:48,505] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:10:48,507] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:10:51,606] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:10:51,607] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:11:40,453] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:11:40,454] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:11:49,806] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:11:49,808] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:12:35,995] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 94, in info_static
+    with open("link.txt", encoding="UTF-8") as link_txt:
+FileNotFoundError: [Errno 2] No such file or directory: 'link.txt'
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:21:58,512] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:21:58,514] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:22:11,055] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:22:11,056] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:23:35,031] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:23:35,033] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:23:39,235] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:23:39,238] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:23:56,692] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:23:56,694] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:24:02,204] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:24:02,206] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:25:22,431] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:25:22,432] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:25:25,502] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:25:25,504] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:25:58,330] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:25:58,331] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:26:13,422] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:26:13,424] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:33:57,743] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:33:57,744] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:34:04,095] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:34:04,097] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:34:24,467] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:34:50,495] Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:35:19,753] Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:36:00,416] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:36:00,417] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:36:07,234] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:36:07,235] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:36:10,224] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:36:12,262] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:38:39,278] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:38:39,280] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:38:42,150] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:38:42,152] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:38:54,441] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:42:18,562] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:42:18,563] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:42:28,470] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:42:28,471] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:45:59,719] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:45:59,721] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:46:03,384] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:46:03,385] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:54:44,595] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:54:44,597] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:54:48,245] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:54:48,246] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 22:56:23,373] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 22:56:23,375] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 22:56:28,465] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 22:56:28,467] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:56:28,784] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:56:48,315] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 22:58:27,852] Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:00:24,911] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:00:24,912] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:00:29,241] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:00:29,242] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:00:29,942] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:00:35,101] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:00:40,150] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:03:34,327] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:03:34,328] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:03:37,827] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:03:37,827] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:03:39,272] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:03:40,898] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:04:29,387] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:04:29,388] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:04:34,687] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:04:34,689] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:04:39,608] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:04:48,062] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:05:06,856] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:05:06,857] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:05:28,787] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:05:28,789] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:05:34,808] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:06:40,362] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:06:40,363] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:06:46,717] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:06:46,718] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:06:49,007] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:06:49,455] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:06:50,645] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:06:58,954] Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:09:30,554] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:09:30,555] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:09:35,303] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:09:35,304] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:09:37,144] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:09:37,823] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:10:19,480] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:10:19,482] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:10:24,665] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:10:24,666] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:17:15,034] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:17:15,035] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:17:19,565] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:17:19,566] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:17:22,537] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:17:34,116] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:17:44,806] Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:18:38,694] Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:19:24,926] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:19:24,928] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:19:30,533] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:19:30,534] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:21:07,137] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:21:07,139] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:21:12,253] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:21:12,255] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:21:13,853] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:21:19,533] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:23:19,217] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:23:19,218] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:23:23,611] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:23:23,614] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:23:24,883] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:23:27,220] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:23:31,540] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:24:41,044] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:24:41,045] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:24:45,170] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:24:45,171] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:37:22,893] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:37:22,895] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:37:26,349] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:37:26,351] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:37:27,491] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Can\'t parse inline keyboard button: can\'t find field "text"')>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: can't find field "text"
+base_events.py [LINE:1744] #ERROR    [2022-09-15 23:37:38,749] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Can\'t parse inline keyboard button: can\'t find field "text"')>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 88, in info_static
+    await message.answer('Поделюсь полезной информацией'  + emoji.emojize(":brain:"),
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 397, in answer
+    return await self.bot.send_message(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: can't find field "text"
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:38:06,752] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:38:06,753] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:38:10,966] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:38:10,967] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:39:01,499] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:39:01,501] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:39:06,206] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:39:06,207] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:40:29,403] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:40:29,404] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:40:34,798] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:40:34,800] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:42:48,465] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:42:48,466] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:42:52,474] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:42:52,475] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:44:30,066] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:44:30,067] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:44:33,302] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:44:33,304] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:48:30,499] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:48:30,500] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:48:34,438] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:48:34,439] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:50:46,317] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:50:46,318] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:50:50,155] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:50:50,156] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:52:16,087] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:52:16,088] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:52:20,255] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:52:20,257] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:54:27,070] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:54:27,072] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:54:30,522] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:54:30,523] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:54:45,846] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:54:45,847] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:54:49,942] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:54:49,943] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:55:12,693] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:55:12,694] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:55:16,451] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:55:16,452] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:55:40,662] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:55:40,663] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:55:44,051] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:55:44,052] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:56:15,677] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:56:15,678] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-15 23:56:19,170] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-15 23:56:19,171] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-15 23:58:24,482] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-15 23:58:24,483] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 00:00:50,507] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 00:00:50,509] Start polling.
+dispatcher.py [LINE:390] #ERROR    [2022-09-16 00:16:49,803] Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 559, in _request
+    await resp.start(conn)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client_reqrep.py", line 893, in start
+    with self._timer:
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+dispatcher.py [LINE:433] #INFO     [2022-09-16 00:20:56,762] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 00:20:56,763] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 00:20:59,717] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 00:20:59,718] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 00:24:33,954] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 00:24:33,955] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 00:24:37,042] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 00:24:37,044] Start polling.
+dispatcher.py [LINE:390] #ERROR    [2022-09-16 10:15:41,790] Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 559, in _request
+    await resp.start(conn)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client_reqrep.py", line 893, in start
+    with self._timer:
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:30:39,870] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:30:39,871] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:36:13,829] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:36:13,830] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:39:34,947] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:39:34,948] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:39:49,737] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:39:49,739] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:40:35,684] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:40:35,686] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:40:39,284] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:40:39,285] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:43:28,894] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:43:28,895] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:43:32,743] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:43:32,744] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:45:33,881] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:45:33,882] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:45:38,877] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:45:38,878] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:48:12,823] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:48:12,825] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:48:18,339] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:48:18,341] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:50:21,404] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:50:21,406] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:50:25,989] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:50:25,990] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:54:18,784] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:54:18,786] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:54:22,721] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:54:22,722] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:58:17,414] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:58:17,416] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:58:21,228] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:58:21,229] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:58:57,480] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:58:57,482] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:59:00,437] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:59:00,438] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:59:04,197] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:59:04,198] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:59:08,306] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:59:08,307] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 10:59:37,247] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 10:59:37,249] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 10:59:41,026] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 10:59:41,027] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:00:28,951] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:00:28,953] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:00:32,848] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:00:32,849] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:01:23,607] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:01:23,608] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:01:27,095] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:01:27,096] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:02:52,208] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:02:52,210] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:02:57,033] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:02:57,034] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:05:16,959] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:05:16,960] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:05:20,983] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:05:20,984] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:06:06,871] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:06:06,872] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:06:11,452] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:06:11,453] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:06:52,245] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:06:52,246] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:06:55,581] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:06:55,582] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:40:42,410] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:40:42,412] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:41:01,129] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:41:01,130] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-09-16 11:41:04,155] Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'emoji' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 78, in info_static
+    await message.answer('Поделюсь полезной информацией' + emoji.emojize(":brain:"),
+NameError: name 'emoji' is not defined
+base_events.py [LINE:1744] #ERROR    [2022-09-16 11:41:16,874] Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'emoji' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Natallia\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Natallia\PycharmProjects\Staskevich_22_PY103\bot_inline\main.py", line 78, in info_static
+    await message.answer('Поделюсь полезной информацией' + emoji.emojize(":brain:"),
+NameError: name 'emoji' is not defined
+dispatcher.py [LINE:433] #INFO     [2022-09-16 11:41:25,810] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-09-16 11:41:25,812] Goodbye!
+executor.py [LINE:362] #INFO     [2022-09-16 11:41:30,217] Bot: test_bot_MM [@mmmmm_i_bot]
+dispatcher.py [LINE:358] #INFO     [2022-09-16 11:41:30,218] Start polling.
